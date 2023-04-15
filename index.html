@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+        http-equiv="X-Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" type="text/css" href="./style/styles.css">
+    
+    <title>Primeiro projeto!</title>
+    </head>
+    <body>
+        <h1>Gerador de senha!</h1>
+        <fieldset>
+            <div>
+                <label for="">Qual tamanho da senha?</label>
+                <input type="number" name="pass" id="pass" min="0" max="15">
+                <button id="btnGeneratePass">Gerar senha</button>
+            </div>
+            <div>
+                <span id="newPass"></span>
+            </div>
+        </fieldset>
+    </body>
+    <script src="./src/scripts.js"></script>
+</html>

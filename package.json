@@ -1,0 +1,23 @@
+{
+  "name": "appelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipithstdr/appElectron.git"
+  },
+  "keywords": [],
+  "author": "Felipi Thiesen Tidra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipithstdr/appElectron/issues"
+  },
+  "homepage": "https://github.com/Felipithstdr/appElectron#readme",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  }
+}
